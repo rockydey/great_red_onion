@@ -6,7 +6,7 @@ import Cart from '../../../images/icons/cart.png';
 
 const Header = () => {
     return (
-        <div className='flex justify-between items-center'>
+        <div className='flex justify-between items-center my-3'>
             <div className="logo md:ml-10">
                 <Link to="/home"><img src={Logo} className="w-40" alt="" /></Link>
             </div>
